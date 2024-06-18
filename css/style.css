@@ -14,7 +14,7 @@ body {
 
 .forgot-password{
     text-align: left;
-    display: inline-block; /* Use inline-block para manter o elemento na linha, mas permitir padding/margin */
+    display: inline-block; 
     margin-bottom: 15px;
 }
 
@@ -34,5 +34,21 @@ form {
     margin-top: 10px;
     color: black;
     border-radius: 20px;
-    /* background-color: #ACACAC;   */
+}
+/* input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+} */
+
+.position-relative {
+    position: relative;
+}
+
+.position-absolute {
+    position: absolute;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    cursor: pointer;
 }
