@@ -29,5 +29,3 @@ document.getElementById('toggleConfirmPassword').addEventListener('click', funct
     this.classList.toggle('fa-eye-slash');
 });
 
-
-
